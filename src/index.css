@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-midnight: #080B1A;
+  --color-sand: #F2E7D5;
+  --color-gold: #C5A059;
+  
+  --color-gold-50: #FAF8F2;
+  --color-gold-100: #F5ECD5;
+  --color-gold-200: #EAD09D;
+  --color-gold-300: #C5A059;
+  --color-gold-400: #A8813B;
+  --color-gold-500: #8A6424;
+  --color-gold-600: #6B4A13;
+}
+
+/* Custom smooth animations */
+@keyframes starPulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+
+.animate-star-pulse {
+  animation: starPulse 3s infinite ease-in-out;
+}
+
+body {
+  background-color: var(--color-midnight);
+  color: var(--color-sand);
+  font-family: var(--font-sans);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Le Petit Prince - Extrait Littéraire",
+  "description": "Une expérience de lecture immersive et poétique présentant les extraits légendaires du Petit Prince d'Antoine de Saint-Exupéry, complétée par un carnet de dessin interactif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
